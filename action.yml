@@ -1,4 +1,4 @@
-ya  name: 'Attest Build Provisions'
+name: 'Attest Build Provisions'
 description: 'Generate provenance attestations for build artifacts'
 author: 'GitHub'
 branding:
