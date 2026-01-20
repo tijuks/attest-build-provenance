@@ -1,4 +1,4 @@
-name: 'Attest Build Provenance'
+  name: 'Attest Build Provenance'
 description: 'Generate provenance attestations for build artifacts'
 author: 'GitHub'
 branding:
@@ -12,7 +12,7 @@ inputs:
       specify exactly one of "subject-path", "subject-digest", or
       "subject-checksums". May contain a glob pattern or list of paths
       (total subject count cannot exceed 1024).
-    required: false
+    required: true
   subject-digest:
     description: >
       Digest of the subject for which provenance will be generated. Must be in
